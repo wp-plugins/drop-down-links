@@ -21,6 +21,7 @@ Simply it collects all the links from the blog and display them in a drop down s
 == Screenshots ==
 -
 == Changelog ==
--
+-0.0.2 Adds better widget support
+
 == Upgrade Notice ==
 -

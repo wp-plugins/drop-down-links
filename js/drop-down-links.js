@@ -4,7 +4,7 @@
  * Description: Widget that put all the links in the drop down
  * Author: Z.Muhsin
  * Author URI: http://www.zanbytes.com
- * Plugin URI: http://forums.mzalendo.net
+ * Plugin URI:http://wordpress.org/extend/plugins/drop-down-links/
  */
 document.observe('dom:loaded', function() {
     $('drop-down-links').observe('click', function() {
