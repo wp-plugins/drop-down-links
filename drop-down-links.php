@@ -51,7 +51,7 @@ class dropDownLinks extends WP_Widget
         if (function_exists('wp_enqueue_script')) {
             wp_enqueue_script('drop-down-links',
                 plugins_url('drop-down-links/js/drop-down-links.js'),
-                array('prototype'),'0.0.2'
+                array('prototype'),'0.0.3'
              );
         }
         return true;
