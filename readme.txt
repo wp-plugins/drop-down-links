@@ -13,9 +13,8 @@ Its meant to be very light weight and down to earth.
 
 == Installation ==
 
-How does it work.
-
-Simply it collects all the links from the blog and display them in a drop down select.Click the clink a new window get opened.
+You install this plugin just like any other WordPress plugin.
+The basic way is to extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page.
 
 == Frequently Asked Questions ==
 -
