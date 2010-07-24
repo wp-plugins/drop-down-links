@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Drop Down Links
- * Version: 0.0.2
+ * Version: 0.0.3
  * Description: Widget that put all the links in the drop down
  * Author: Z.Muhsin
  * Author URI: http://www.zanbytes.com
@@ -15,7 +15,7 @@ class dropDownLinks extends WP_Widget
 {  
     function dropDownLinks() {
         parent::WP_Widget(false, $name = 'Drop down links');
-        add_action('wp_print_scripts', $this->_getJavascript());
+        add_action('wp_print_scripts', array($this,'_getJavascript'));
     }
     
     /** @see WP_Widget::widget */
@@ -49,7 +49,10 @@ class dropDownLinks extends WP_Widget
     function _getJavascript()
     {
         if (function_exists('wp_enqueue_script')) {
-            wp_enqueue_script('drop-down-links',plugins_url('drop-down-links/js/drop-down-links.js'), array('prototype'));
+            wp_enqueue_script('drop-down-links',
+                plugins_url('drop-down-links/js/drop-down-links.js'),
+                array('prototype'),'0.0.2'
+             );
         }
         return true;
     }

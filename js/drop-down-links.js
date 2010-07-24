@@ -1,6 +1,5 @@
 /**
  * Plugin Name: Drop Down Links
- * Version: 0.0.1
  * Description: Widget that put all the links in the drop down
  * Author: Z.Muhsin
  * Author URI: http://www.zanbytes.com

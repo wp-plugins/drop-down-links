@@ -8,7 +8,8 @@ Stable tag: 0.0.1
 
 == Description ==
 
-I wrote this plugin for use in WordPress.Currently I have just tested it with WP 3.0 as thats what runs on the site that it was meant to be used.
+This widget takes all the links and put them in a drop-down select instead of displaying them as links scattered all over the sidebar.
+Its meant to be very light weight and down to earth.
 
 == Installation ==
 
@@ -22,6 +23,7 @@ Simply it collects all the links from the blog and display them in a drop down s
 -
 == Changelog ==
 -0.0.2 Adds better widget support
+-0.0.3 Fixes the warning on E_STRICT
 
 == Upgrade Notice ==
 -
