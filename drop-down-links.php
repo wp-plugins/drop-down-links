@@ -64,7 +64,6 @@ class dropDownLinks extends WP_Widget
     protected function _getLinksData()
     {
         $query = "SELECT link_url,link_name FROM wp_links";
-        $dbuser = DB_USER;
         $wpdb = new wpdb(DB_USER, DB_PASSWORD, DB_NAME, DB_HOST);
         $res = $wpdb->get_results($query);
         return $res;

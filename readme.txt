@@ -16,13 +16,19 @@ Its meant to be very light weight and down to earth.
 You install this plugin just like any other WordPress plugin.
 The basic way is to extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page.
 
+
 == Frequently Asked Questions ==
 -
+
 == Screenshots ==
--
+http://plugins.svn.wordpress.org/drop-down-links/trunk/drop-down-links.png
+
 == Changelog ==
--0.0.2 Adds better widget support
--0.0.3 Fixes the warning on E_STRICT
+
+= 0.0.2 =
+* Adds better widget support
+
+= 0.0.3 =
+* Fixes the warning on E_STRICT
 
 == Upgrade Notice ==
--
