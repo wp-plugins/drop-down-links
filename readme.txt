@@ -3,8 +3,8 @@ Contributors: mrfroasty
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=admin%40mzalendo%2enet&lc=GB&item_name=MZALENDO%2eNET&item_number=mzalendo&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Tags: links, drop-down
 Requires at least: 2.7
-Tested up to: 3.0
-Stable tag: 0.0.1
+Tested up to: 3.0.1
+Stable tag: 0.0.4
 
 == Description ==
 
@@ -21,7 +21,7 @@ The basic way is to extract the zip file and just drop the contents in the wp-co
 -
 
 == Screenshots ==
-http://plugins.svn.wordpress.org/drop-down-links/trunk/drop-down-links.png
+1.[drop-down-links Screenshots] (http://plugins.svn.wordpress.org/drop-down-links/trunk/drop-down-links.png "Sidebar widget"
 
 == Changelog ==
 
@@ -30,5 +30,9 @@ http://plugins.svn.wordpress.org/drop-down-links/trunk/drop-down-links.png
 
 = 0.0.3 =
 * Fixes the warning on E_STRICT
+
+= 0.0.4 =
+* Aug 19, 2010
+* Fixes js compatibilities with the WP Image Editing.
 
 == Upgrade Notice ==
