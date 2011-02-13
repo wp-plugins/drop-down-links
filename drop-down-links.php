@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Drop Down Links
- * Version: 0.0.4
+ * Version: 0.0.5
  * Description: Widget that put all the links in the drop down
  * Author: Z.Muhsin
  * Author URI: http://www.zanbytes.com
@@ -16,7 +16,7 @@ class dropDownLinks extends WP_Widget
     /**
      * Plugin version
      */
-    const PLUGIN_VERSION = '0.0.4';
+    const PLUGIN_VERSION = '0.0.5';
 
     /**
      *
@@ -69,8 +69,8 @@ class dropDownLinks extends WP_Widget
     {
         if (function_exists('wp_enqueue_script') && !is_admin()) {
             wp_enqueue_script('drop-down-links',
-                plugins_url('drop-down-links/js/drop-down-links.js'),
-                array('prototype'),self::PLUGIN_VERSION
+                plugins_url('drop-down-links/js/drop-down-links.js')
+//                array('prototype'),self::PLUGIN_VERSION
              );
         }
         return true;
@@ -98,7 +98,7 @@ class dropDownLinks extends WP_Widget
     protected function _prepHtmlLinks($size = "5", $width = "175")
     {
         $links = $this->_getLinksData();
-        $linkStr .= "<select id=\"drop-down-links\" size=\"$size\" multiple style=\"width:175px;\">";
+        $linkStr .= "<select onClick='dropDownLinks()' id=\"drop-down-links\" size=\"$size\" multiple style=\"width:175px;\">";
         foreach ($links as $link) {
             $url = $link->link_url;
             $name = $link->link_name;

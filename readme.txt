@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=admin
 Tags: links, drop-down
 Requires at least: 2.7
 Tested up to: 3.0.1
-Stable tag: 0.0.4
+Stable tag: 0.0.5
 
 == Description ==
 
@@ -34,5 +34,9 @@ The basic way is to extract the zip file and just drop the contents in the wp-co
 = 0.0.4 =
 * Aug 19, 2010
 * Fixes js compatibilities with the WP Image Editing.
+
+= 0.0.5
+* February 13,2011
+* Fixes js compatibility with other libraries
 
 == Upgrade Notice ==
