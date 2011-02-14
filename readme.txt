@@ -35,7 +35,7 @@ The basic way is to extract the zip file and just drop the contents in the wp-co
 * Aug 19, 2010
 * Fixes js compatibilities with the WP Image Editing.
 
-= 0.0.5
+= 0.0.5 =
 * February 13,2011
 * Fixes js compatibility with other libraries
 
